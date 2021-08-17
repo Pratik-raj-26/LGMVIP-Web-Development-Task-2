@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: rgb(30, 36, 109);
+  justify-content: space-evenly;
+}
+.home-image img{
+  width: 60%;
+  margin-left:6rem;
+}
+.home-content{
+  width: 40%;
+  line-height: 1.5rem;
+  margin-left: 5rem;
+  color: aliceblue;
+}
+.home-content h1{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.hbtn{
+  margin-top: 2rem;
+  font-size: 0.8rem;
+   padding: 0.8em 1.8em;
+   border-radius: 30px;
+   outline: none;
+   color: #ffffff;
+   border: 2px solid #ff451a;
+   background: none;
+}
+.Nav li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:linear-gradient(to right , rgba(28, 110, 165, 0.15),rgba(15, 138, 121, 0.12)); 
+  color: aliceblue;
+  padding-left: 3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  height: 70px;
+  border-bottom:2px solid rgba(255,255,255,0.25);
+}
+.Nav{
+  background:  rgb(104, 110, 172);;
+}
+.Nav ul li h2{ 
+  font-size: 1.5rem;
+}
+.btn{
+   font-size: 1rem;
+   font-weight: 600;
+   color: #fff9f9;
+   padding: 0.5em 1.5em;
+   border-radius: 30px;
+   background:linear-gradient(to top, rgb(121, 221, 6),rgb(202, 224, 7));
+   outline: none;
+   border: none;
+   margin-right: 3rem;
+}
+.btn:hover{
+ background:linear-gradient(to top, rgb(5, 194, 122),rgb(6, 140, 164));
+  
+}
+.hbtn:hover{
+  background:linear-gradient(to top,#ff761a,#fa983d );
+   
+ }
+.naruto {
+  width: 100%;
+  height: 100vh;
+  background: rgb(45, 47, 66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.naruto img{
+  width: 30%;
+}
